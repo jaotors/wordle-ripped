@@ -1,7 +1,7 @@
 ## W0rdLeR1pP3d
 
 ### This is just a ripped of the famous game.
-
+- doing a clone of the famous game for fun.
 ### Tech Stack
 - Vanilla JS
 - Vanilla CSS
