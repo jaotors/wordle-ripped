@@ -1,0 +1,97 @@
+@keyframes shake {
+  10% {
+    transform: translateX(-5%);
+  }
+
+  30% {
+    transform: translateX(5%);
+  }
+
+  50% {
+    transform: translateX(-7.5%);
+  }
+
+  70% {
+    transform: translateX(7.5%);
+  }
+
+  90% {
+    transform: translateX(-5%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes dance {
+  20% {
+    transform: translateY(-50%);
+  }
+
+  40% {
+    transform: translateY(5%);
+  }
+
+  60% {
+    transform: translateY(-40%);
+  }
+
+  80% {
+    transform: translateY(-3%);
+  }
+
+  90% {
+    transform: translateY(-20%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes down {
+  20% {
+    transform: translateY(50%);
+  }
+
+  30% {
+    transform: translateY(75%);
+  }
+
+  40% {
+    transform: translateY(80%);
+  }
+
+  50% {
+    transform: translateY(90%);
+  }
+
+  60% {
+    transform: translateY(100%);
+  }
+
+  65% {
+    transform: translateY(95%);
+  }
+
+  70% {
+    transform: translateY(50%);
+  }
+
+  80% {
+    transform: translateY(30%);
+  }
+
+  90% {
+    transform: translateY(15%);
+  }
+
+  90% {
+    transform: translateY(10%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
