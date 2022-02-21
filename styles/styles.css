@@ -39,7 +39,7 @@ body {
 
 .main > .guess-container > .tile {
   --black: white;
-  border: 1px solid hsl(204, 2%, 54%);
+  border: 1px solid hsl(204, 2%, 30%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -48,17 +48,21 @@ body {
   color: hsl(0, 0%, 100%);
 }
 
-.main > .guess-container > .tile.-correct {
+.main > .guess-container > .tile[data-state='active'] {
+  border-color: hsl(204, 2%, 80%);
+}
+
+.main > .guess-container > .tile[data-state='correct'] {
   background-color: var(--color-correct);
   border-color: var(--color-correct);
 }
 
-.main > .guess-container > .tile.-warning {
+.main > .guess-container > .tile[data-state='warning'] {
   background-color: var(--color-warning);
   border-color: var(--color-warning);
 }
 
-.main > .guess-container > .tile.-wrong {
+.main > .guess-container > .tile[data-state='wrong'] {
   background-color: var(--color-wrong);
   border-color: var(--color-wrong);
 }
